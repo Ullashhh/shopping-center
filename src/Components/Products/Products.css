@@ -1,0 +1,14 @@
+.products {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  gap: 20px;
+}
+
+.products-item {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  /* padding: 2rem; */
+}

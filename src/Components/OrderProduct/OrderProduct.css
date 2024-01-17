@@ -1,0 +1,29 @@
+.order-product-section img{
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    padding: 0.5rem;
+}
+
+.order-product-section{
+    display: flex;
+    align-items: center;
+    border: 1px solid grey;
+    padding: 1rem 3rem;
+    margin: 1rem;
+    border-radius: 10px;
+    /* width: 100%; */
+}
+.order-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.order-info button{
+    width: 5rem;
+    height: 2rem;
+    cursor: pointer;
+}
